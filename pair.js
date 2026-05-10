@@ -23,7 +23,7 @@ const {
   jidNormalizedUser,
   downloadContentFromMessage,
   DisconnectReason
-} = require('@dnuzi/baileys');
+} = require('supunmd-bail');
 
 // ---------------- CONFIG ----------------
 
