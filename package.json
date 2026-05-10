@@ -1,0 +1,48 @@
+{
+  "name": "NEXUS-MINI",
+  "version": "1.0.0",
+  "description": "Ｎᴇxᴜꜱ Ｍᴅ Ｍɪɴɪ Ｂᴏᴛ Ｃʀᴇᴀᴛᴇᴅ Ｂʏ Ｎᴇxᴜꜱ Ｃᴏᴅᴇʀꜱ ⦂",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dnuzi/baileys": "latest",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "pino": "^8.17.0",
+    "jimp": "^0.22.12",
+    "figlet": "^1.11.0",
+    "@octokit/rest": "^20.0.2",
+    "denethdev-ytmp3": "1.0.3",
+    "cheerio": "1.1.0",
+    "ruhend-scraper": "9.0.1",
+    "yt-search": "2.12.1",
+    "node-fetch": "3.3.2",
+    "sharp": "0.34.1",
+    "file-type": "21.0.0",
+    "axios": "^1.2.5",
+    "moment-timezone": "^0.6.0",
+    "mongodb": "^5.7.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1"
+  },
+  "overrides": {
+    "jimp": "^0.16.1",
+    "sharp": "0.34.5"
+  },
+  "engines": {
+    "node": ">=20.x"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys",
+    "nexus-mini"
+  ],
+  "author": "NEXUS",
+  "license": "MIT"
+}
