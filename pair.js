@@ -23,11 +23,11 @@ const {
   jidNormalizedUser,
   downloadContentFromMessage,
   DisconnectReason
-} = require('supunmd-bail');
+} = require('@whiskeysockets/baileys');
 
 // ---------------- CONFIG ----------------
 
-const BOT_NAME_FANCY = '*NΣXUS MD MINI*';
+const BOT_NAME_FANCY = 'NΣXUS MD MINI';
 
 const config = {
   AUTO_VIEW_STATUS: 'true',
